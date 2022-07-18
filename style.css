@@ -1,0 +1,123 @@
+/* font family roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* universel properties */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #f3f1ff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  max-width: 870px;
+  padding: 33px;
+  margin: 12px 0;
+}
+hr {
+  border: 1px solid #d1d1d1;
+  max-width: 807px;
+  height: 0px;
+  margin: 30px 0;
+}
+.player-title {
+  color: #562eff;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.player img {
+  width: 56px;
+  height: 56px;
+}
+/* ---------------blog section ----------------*/
+.blog-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px;
+}
+.blogs {
+  display: flex;
+  gap: 16px;
+}
+.blogs .thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+.blog-title {
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.blog-author {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.blog-author a {
+  text-decoration: none;
+}
+.course-blogs .course-img img {
+  width: 224px;
+  height: 104px;
+}
+small {
+  display: inline-block;
+  color: #ed6b4f;
+  padding-bottom: 12px;
+}
+.fa-star {
+  color: #ffc014;
+}
+/* -----------icons ----------*/
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+.course-blogs {
+  box-shadow: 4px 4px 9px wheat;
+  padding: 12px;
+  border-radius: 9px;
+  width: 252px;
+  height: 279px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-icon {
+  color: #aeaeae;
+  margin-right: 12px;
+  opacity: 0.25;
+}
+span {
+  opacity: 0.75;
+}
+.clock-time {
+  color: #ff4a60;
+  background-color: #fee5df;
+  padding: 4px 6px;
+  border-radius: 100px;
+}
